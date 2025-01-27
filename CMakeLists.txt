@@ -13,6 +13,7 @@ include_directories(
 
 file(GLOB LIBRARY_SOURCES
     "source/library/*.cpp"
+    "source/util/*.cpp"
 )
 
 file(GLOB TEST_SOURCES
