@@ -7,3 +7,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 ## Solved Problems
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+- [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
