@@ -10,3 +10,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+- [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
