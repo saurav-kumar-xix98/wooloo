@@ -2,7 +2,9 @@
 #include <vector>
 #include <algorithm>
 #include <stdexcept>
+#include <queue>
 #include <datatype/ListNode.hpp>
+#include <datatype/TreeNode.hpp>
 
 std::vector<std::string> splitWords(const std::string_view &str, const std::string &delimiter) {
     std::vector<std::string> words;
@@ -64,7 +66,7 @@ std::vector<int> Util::Parser::parse(const std::string &str) {
 
 template<>
 std::vector<std::vector<int>> Util::Parser::parse(const std::string &str) {
-    const auto stringMatrix = parse<std::vector<std::vector<std::string> > >(str);
+    const auto stringMatrix = parse<std::vector<std::vector<std::string>> >(str);
 
     std::vector<std::vector<int>> intMatrix(stringMatrix.size());
     for (size_t r = 0; r < stringMatrix.size(); ++r) {
@@ -115,4 +117,31 @@ std::vector<Datatype::ListNode*> Util::Parser::parse(const std::string &str) {
         return listNodeFromIntVector(intVector);
     });
     return result;
+}
+
+template<>
+Datatype::TreeNode* Util::Parser::parse(const std::string &str) {
+    const auto stringVector = parse<std::vector<std::string>>(str);
+    if (stringVector.empty())
+        return nullptr;
+
+    auto *root = new Datatype::TreeNode(std::stoi(stringVector[0]));
+    std::queue<Datatype::TreeNode*> nodes;
+    nodes.push(root);
+
+    for (int i = 1; i < stringVector.size(); i += 2) {
+        Datatype::TreeNode *node = nodes.front();
+        nodes.pop();
+
+        if (stringVector[i] != "null") {
+            node->left = new Datatype::TreeNode(std::stoi(stringVector[i]));
+            nodes.push(node->left);
+        }
+        if (i + 1 < stringVector.size() && stringVector[i + 1] != "null") {
+            node->right = new Datatype::TreeNode(std::stoi(stringVector[i + 1]));
+            nodes.push(node->right);
+        }
+    }
+
+    return root;
 }
