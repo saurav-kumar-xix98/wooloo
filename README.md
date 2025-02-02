@@ -14,3 +14,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
 - [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
+- [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
