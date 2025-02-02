@@ -12,3 +12,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 - [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
+- [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
