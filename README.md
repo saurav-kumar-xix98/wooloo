@@ -13,3 +13,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 - [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
 - [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
+- [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
