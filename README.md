@@ -15,3 +15,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
 - [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
+- [1036. Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)
