@@ -1,21 +1,8 @@
 #include <library/LC2440_CreateComponentsWithSameValue.hpp>
+#include <datatype/Graph.hpp>
 
 namespace LC2440 {
-    class Graph {
-    public:
-        Graph(size_t N) : adjacencyList(N) {}
-        void addEdge(size_t node1, size_t node2) {
-            adjacencyList[node1].push_back(node2);
-            adjacencyList[node2].push_back(node1);
-        }
-        const std::vector<size_t>& getNeighbors(size_t node) const {
-            return adjacencyList[node];
-        }
-    private:
-        std::vector<std::vector<size_t>> adjacencyList;
-    };
-
-    int canSplitIntoComponents(const Graph &graph, const std::vector<int> &values, std::vector<bool> &visiting, const int node, const int target) {
+    int canSplitIntoComponents(const Datatype::Graph &graph, const std::vector<int> &values, std::vector<bool> &visiting, const int node, const int target) {
         visiting[node] = true;
 
         int sum = values[node];
@@ -42,7 +29,7 @@ namespace LC2440 {
 }
 
 int LC2440::componentValue(std::vector<int> &values, std::vector<std::vector<int>> &edges) {
-    Graph graph(values.size());
+    Datatype::Graph graph(values.size());
     for (const auto &edge: edges)
         graph.addEdge(edge[0], edge[1]);
 

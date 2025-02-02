@@ -18,3 +18,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [1036. Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)
 - [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value/)
 - [2458. Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)
+- [2872. Maximum Number of K-Divisible Components](https://leetcode.com/problems/maximum-number-of-k-divisible-components/)
