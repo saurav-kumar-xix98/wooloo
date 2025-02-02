@@ -16,3 +16,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
 - [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
 - [1036. Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)
+- [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value/)
