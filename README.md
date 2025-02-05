@@ -22,3 +22,4 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [3108. Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)
 - [3260. Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/)
 - [3351. Sum of Good Subsequences](https://leetcode.com/problems/sum-of-good-subsequences/)
+- [3352. Count K-Reducible Numbers Less Than N](https://leetcode.com/problems/count-k-reducible-numbers-less-than-n/)
