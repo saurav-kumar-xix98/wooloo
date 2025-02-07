@@ -5,6 +5,7 @@
 Wooloo speaks C++ and solves LeetCode, one problem at a time.
 
 ## Solved Problems
+- [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 - [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
