@@ -16,6 +16,7 @@ Wooloo speaks C++ and solves LeetCode, one problem at a time.
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
 - [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
 - [1036. Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)
+- [1808. Maximize Number of Nice Divisors](https://leetcode.com/problems/maximize-number-of-nice-divisors/)
 - [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value/)
 - [2458. Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)
 - [2872. Maximum Number of K-Divisible Components](https://leetcode.com/problems/maximum-number-of-k-divisible-components/)
